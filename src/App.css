@@ -297,7 +297,7 @@ h2 {
 .timeline-img {
   width: 80%;
   height: 200px;
-  background: url(./timeline.png) no-repeat;
+  background: url(./assets/timeline.png) no-repeat;
   background-position: center;
   background-size: contain;
 }
@@ -340,10 +340,10 @@ h2 {
   line-height: 30px;
 }
 .ul-white li::marker {
-  content: url(./cekgreen.png);
+  content: url(./assets/cekgreen.png);
 }
 .ul-green li::marker {
-  content: url(./cekwhite.png);
+  content: url(./assets/cekwhite.png);
 }
 
 @media (width < 600px) {
@@ -377,7 +377,7 @@ h2 {
   .timeline-img {
     width: 100%;
     height: 700px;
-    background: url(./timeline-mobile.png) no-repeat;
+    background: url(./assets/timeline-mobile.png) no-repeat;
     background-position: center;
     background-size: contain;
   }
