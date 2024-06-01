@@ -27,7 +27,7 @@ export default function Navbar() {
       <div
         style={{
           backgroundColor: `${
-            tinggi > 500 ? "hsla(0, 0%, 0%, 0.7)" : "transparent"
+            tinggi > 200 ? "hsla(0, 0%, 0%, 0.7)" : "transparent"
           }`,
         }}
         className="navbar"
